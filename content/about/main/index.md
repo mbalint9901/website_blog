@@ -10,7 +10,7 @@ intro: |
   
 show_outro: true
 outro: |
-  <i class="fas fa-lightbulb pr2"></i>Biostatistician, data scientist<br>, also a Finance MSc and CEMS student.
+  <i class="fas fa-lightbulb pr2"></i>Biostatistician, data scientist,<br> also a Finance MSc and CEMS student.
 ---
 
 ** index doesn't contain a body, just front matter above.
