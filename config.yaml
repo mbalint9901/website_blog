@@ -1,4 +1,4 @@
-baseURL: /
+baseURL: 'https://effervescent-beijinho-178990.netlify.app'
 theme: hugo-apero
 languageCode: en
 title: Hugo Apéro
