@@ -1,8 +1,8 @@
-baseURL: 'https://effervescent-beijinho-178990.netlify.app'
+baseURL: 'https://balintmazzag.netlify.app'
 theme: hugo-apero
 languageCode: en
-title: Hugo Apéro
-author: Alison Hill
+title: Balint Mazzag
+author: Balint Mazzag
 copyright: ''
 googleAnalytics: ''
 disqusShortname: ''
@@ -72,7 +72,7 @@ params:
   socialInFooter: yes
   socialInHeader: no
   textFontFamily: sans-serif
-  theme: sky
+  theme: forest
   twitter: apreshill
   utterances:
     issue_term: pathname

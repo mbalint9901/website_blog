@@ -2,19 +2,15 @@
 action_label: Read More &rarr;
 action_link: /about
 action_type: text
-description: Sit down, relax, and get to know Hugo Apéro. Built on top of Blogophonic,
-  we wanted to create a polished Hugo theme with the right features for a true personal
-  website. We set out to create a theme that is a pleasure to learn, and one that
-  helps others get to know you better. It is more than a blog, with flexible custom
-  layouts that help you introduce yourself online.
+description: I am a data scientist currently working at Research Flow, a Hungarian company working with biostatistics. My main research topics are Natural Language Processing and data visualisation, however my interest for network science is also increasing. I currently attend Finance MSc at the Corvinus University of Budapest. This website is created for publishing and sharing my academic or hobby researches, and for other projects.
 image_left: true
 images:
 - img/revoir.jpg
 show_action_link: true
 show_social_links: true
-subtitle: A Hugo theme you'll want to hang out with
+subtitle: Data Scientist
 text_align_left: false
-title: Hugo Apéro
+title: Bálint Mazzag
 type: home
 ---
 
