@@ -4,7 +4,7 @@ languageCode: en
 title: Balint Mazzag
 author: Balint Mazzag
 copyright: ''
-googleAnalytics: ''
+googleAnalytics: 'G-JKQ4WH70T0'
 disqusShortname: ''
 metaDataFormat: yaml
 footnoteReturnLinkContents: '&#8617;'
@@ -107,7 +107,7 @@ privacy:
     disable: yes
   googleAnalytics:
     anonymizeIP: yes
-    disable: yes
+    disable: no
     respectDoNotTrack: yes
   instagram:
     disable: yes
