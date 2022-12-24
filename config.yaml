@@ -36,7 +36,7 @@ params:
   description: A modern, beautiful, and easily configurable blog theme for Hugo.
   favicon: /img/favicon.ico
   headingFontFamily: sans-serif
-  logo: /img/blogophonic-mark-dark.png
+  logo: /img/bmazzag_hexagon.png
   mainSections:
     - blog
     - project
@@ -53,25 +53,13 @@ params:
       url: https://github.com/mbalint9901
     - icon: linkedin
       icon_pack: fab
-      url: https://github.com/mbalint9901
+      url: https://www.linkedin.com/in/mazzag-b%C3%A1lint-066b2b69/
     - icon: facebook-square
       icon_pack: fab
       url: https://www.facebook.com/balint.mazzag
-    # - icon: instagram
-    #   icon_pack: fab
-    #   url: https://www.instagram.com/explore/tags/apero/
-    # - icon: twitter
-    #   icon_pack: fab
-    #   url: https://twitter.com/hashtag/apéro
-    # - icon: impactstory
-    #   icon_pack: ai
-    #   url: https://impactstory.org/u/0000-0002-8082-1890
     - icon: orcid
       icon_pack: ai
       url: http://orcid.org/0000-0003-2027-4044
-    # - icon: rss
-    #   icon_pack: fas
-    #   url: /blog/index.xml
   socialInFooter: yes
   socialInHeader: no
   textFontFamily: sans-serif
@@ -103,47 +91,35 @@ menu:
       weight: 3
   header:
     - name: About
-      title: About Blogophonic
+      title: About Me
       url: /about/
       weight: 1
-    - name: Blog
-      title: Blog
-      url: /blog/
-      weight: 2
+    # - name: Blog
+    #   title: Blog
+    #   url: /blog/
+    #   weight: 2
     - name: Projects
       title: Project Portfolio
       url: /project/
       weight: 3
-    - name: Talks
-      title: Talks
-      url: /talk/
-      weight: 4
-    - name: A collection
-      title: A collection
-      url: /collection/
-      weight: 5
-    - name: Elements
-      title: Element Page
-      url: /elements/
-      weight: 6
 privacy:
   disqus:
-    disable: no
+    disable: yes
   googleAnalytics:
     anonymizeIP: yes
-    disable: no
+    disable: yes
     respectDoNotTrack: yes
   instagram:
-    disable: no
+    disable: yes
     simple: yes
   twitter:
-    disable: no
+    disable: yes
     enableDNT: yes
     simple: no
   vimeo:
-    disable: no
+    disable: yes
     enableDNT: yes
     simple: yes
   youtube:
-    disable: no
+    disable: yes
     privacyEnhanced: yes
