@@ -106,7 +106,7 @@ privacy:
   disqus:
     disable: yes
   googleAnalytics:
-    anonymizeIP: yes
+    anonymizeIP: no
     disable: no
     respectDoNotTrack: yes
   instagram:
