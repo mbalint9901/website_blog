@@ -2,7 +2,7 @@
 action_label: Read More &rarr;
 action_link: /about
 action_type: text
-description: I am a data scientist currently working at Research Flow, a Hungarian company working with biostatistics. My main research topics are Natural Language Processing and data visualisation, however my interest for network science is also increasing. I currently attend Finance MSc at the Corvinus University of Budapest. This website is created for publishing and sharing my academic or hobby researches, and for other projects.
+description: I am a Data Scientist currently working at Research Flow, a Hungarian company in the field of biostatistics. My main research topics are Natural Language Processing and financial systemic risk contagion, however my interest for state-of-art data visualisation practices is also increasing. I currently attend Finance MSc at the Corvinus University of Budapest. This website is created for publishing and sharing my professional, academic or hobby researches, and other projects.
 image_left: true
 images:
 - img/bmazzag_logo.png

@@ -38,9 +38,7 @@ params:
   headingFontFamily: sans-serif
   logo: /img/bmazzag_hexagon.png
   mainSections:
-    - blog
     - project
-    - talk
   math:
     renderer: katex
   navallcaps: yes
