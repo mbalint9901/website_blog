@@ -22,7 +22,7 @@ subtitle: ""
 tags:
 - hugo-site
 title: Where Have I Been?
-runtime: shiny
+output: html_document
 ---
 
 ### A Shiny application which maps out the countries where I have travelled so far, and how I rank them.
@@ -33,10 +33,12 @@ Since I was very young, I kept track of everything, related to geography, or cou
 
 ---
 
-![](countries.png)
-Shiny application deployed to visualize the Tiers of countries
+The embedded Shiny application deployed to visualize the tiers of countries
+*As the datatable is not dynamically sizeable, it may appear way larger on your device then it should on the original app*
 
-<!-- {{< figure src="countries.png" alt="Traditional right sidebar layout" caption="Shiny application deployed to visualize the Tiers of countries" >}} -->
+```{r, echo=FALSE}
+knitr::include_app("https://balint-mazzag.shinyapps.io/wherehaveibeen/", height = "700px")
+```
 
 
 > ##### Disclaimer
@@ -102,22 +104,15 @@ library(shiny)
 To make it interactive, and to mimic the behaviour of the application, we can create a filter for the 
 year I travelled to a destination.
 
-```{r data_reactiveinput, warning=FALSE, echo = FALSE, message=FALSE, results='hold'}
 
-date_list <- unique(data_geom$first_visit)
-
-shiny::sliderInput("first_visit_var", "", animate = T,
- min = min(date_list), max = max(date_list), value = 2022)
-
-```
+```{r data_render, echo = FALSE, warning=FALSE, message=FALSE, results='hold'}
 
 
-```{r data_render, warning=FALSE, message=FALSE, results='hold'}
+first_visit_var <- 2022
 
-renderLeaflet({
-  data_geom %>%
+data_geom %>%
   st_as_sf() %>% 
-  filter(first_visit <= input$first_visit_var) %>%
+  filter(first_visit <= first_visit_var) %>%
   leaflet() %>%
   setView(lng = -50, lat = 30, zoom = 2) %>%
   # addTiles() %>%
@@ -140,10 +135,12 @@ renderLeaflet({
                   "<img src='",image_link,"' height='24px'>",
                   "&nbsp;&nbsp;&nbsp;&nbsp;<strong>", country, "</strong><br/>Click for more info!"
                 ) %>% lapply(htmltools::HTML))
-})
+
 
 ```
 
+```{r data_render, eval=FALSE, echo=T}
+```
 And voilá, my own travel diary is starting to take shape, but for interactivity, check my code on
 Github
 
